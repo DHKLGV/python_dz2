@@ -6,17 +6,17 @@
 
 import random
 
-orel = 0
-reshka = 0
+back = 0 # Орел
+front = 0 # Решка
 i = 0
 while i !=5:
     i += 1
     r = int(random.randint (1, 2))
     if r == 1:
-        orel += 1
+        back += 1
     else:
         r == 2
-        reshka += 1
-print("Орлов выпало: ", orel, "Решек выпало: ", reshka)
+        front += 1
+print("Орлов выпало: ", back, "Решек выпало: ", front)
 
-print(i, '->', orel, 'Орлов,', reshka, 'Решки')
+print(i, '->', back, 'Орлов,', front, 'Решки')
