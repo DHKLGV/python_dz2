@@ -3,11 +3,11 @@
 # 10 -> 1 2 4 8
 
 
-a = int(input('Введите число: '))
+n = int(input('Введите число: '))
 b = 1
-while a > b:
-    if (a > b):
-        if (b * 2 > a):
+while n > b:
+    if (n > b):
+        if (b * 2 > n):
             break
         else:
             b = b * 2
