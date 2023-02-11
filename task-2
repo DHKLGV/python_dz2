@@ -17,9 +17,9 @@ for i in range(1001):
         for j in range(1001):
             if stop != 1:
                 if i * j == P and i + j == S:
-                        stop = 1
+                    print(i, j)
+                    stop = 1
         else:
                 j = 1001
     else:
         i = 1001
-print('Петя загадал числа', x, y)
